@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    background-image: url(./img/bag.jpg);
+    background-size: cover;
+}
+
+#body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#text {
+    font-size: 32px;
+    height: 80px;
+    line-height: 80px;
+}
+
+#word {
+    font-size: 25px;
+    width: 500px;
+}
+
+#btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.button {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#hidWord {
+    font-size: 17px;
+}
+
+.imgAudio {
+    width: 100px;
+    height: 100px;
+
+}
+
+#a_audio {
+    position: absolute;
+    top: 20px;
+    right: 35%;
+    cursor: pointer;
+}
+
+#a_audio #imgAudio {
+    width: 50px;
+    height: 50px;
+}
+#falseImg{
+    display: none;
+}
+#cha{
+    position: relative;
+    display: none;
+    top: -53px;
+    right: 35px;
+    font-size: 35px;
+    cursor: pointer;
+}
